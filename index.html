@@ -1,24 +1,40 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="eng">
+
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="resources/css/style.css" type="text/css" rel="stylesheet">
-        <title>Document</title>
+        <title>Excursion App</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     </head>
+
     <body>
-        <h1 class="header-title">Discover hidden places in the world around you</h1>
-        <p><a class="link-dl" href="#">Download Excursion (Coming soon!)</a></p>
-        <video autoplay muted loop>
-            <source src="resources/videos/excursion.mp4" type="video/mp4">
-            <h2 class="header-second">Your personal travel guide</h2>
-            <h4 class="header-sub">Excursion remembers places you like, and recommends new points of interest around you</h4>
-            <p><img src="resources/images/camp.jpg"/></p>
-            <p><img src="resources/images/phone.png" alt="cellphone"/></p>
-            <h4 class="header-second">Comming soon for iPhone and Android</h4>
-            <a class="link-dl" href="#">Download Excursion (Comming soon!)</a>
-            <p class="footer-copy">&#169 Excursion</p>
-        </video>
+        <header>
+            <h1>Discover hidden places in the world around you</h1>
+            <p><a href="#0">Download Excursion (Coming Soon!)</a></p>
+        </header>
+
+        <main>
+            <!--Phone with vid playing -->
+            <video muted autoplay loop>
+                <p>Video not supported</p>
+                <source src="resources/videos/excursion.mp4" />
+                <source src="resources/videos/excursion.webm" />
+            </video>
+
+            <div>
+                <h2>Your personal travel guide</h2>
+                <p class="subheading">Excursion remembers places you like, and recommends new points of interest around you.</p>
+            </div>
+
+            <!--camp at dusk-->
+            <img src="resources/images/camp.webp"/>
+        </main>
+
+        <footer>
+            <!--small phone icon-->
+            <img class="smallPhone" src="resources/images/phone.webp"/>
+            <h2>Coming Soon for iPhone and Android</h2>
+            <p><a href="#0">Download Excursion (Coming Soon!)</a></p>
+            <p class="copyright">&#169 Excursion</p>
+        </footer>
     </body>
-    </html>
+</html>
